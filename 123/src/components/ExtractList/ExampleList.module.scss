@@ -1,0 +1,19 @@
+.item {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 24px;
+  .topic {
+    font-weight: 600;
+  }
+  .content {
+    margin: 8px 0 16px 0;
+    .catalog {
+      margin-bottom: 8px;
+    }
+    .catalog,
+    .txt {
+      color: #444;
+    }
+  }
+}

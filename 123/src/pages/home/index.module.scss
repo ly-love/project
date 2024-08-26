@@ -1,0 +1,12 @@
+.home {
+  height: 100%;
+  .chatContainer {
+    border-right: 1px solid #ececec;
+    flex: 3;
+    flex-shrink: 0;
+  }
+  .articleContainer {
+    flex: 2;
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,66 @@
+.recommend {
+  height: 100%;
+  padding: 24px;
+  max-width: 420px;
+  min-width: 320px;
+  margin: 0 auto;
+  .catalog {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    .tag {
+      color: #1677ff;
+    }
+  }
+  .grid {
+    .card {
+      padding: 24px;
+      border-radius: 10px;
+      margin-bottom: 24px;
+      background-color: #fff;
+      border: 1px solid #fff;
+      &:hover {
+        border: 1px solid #1677ff;
+      }
+      .img {
+        width: 28px;
+        height: 28px;
+        margin-right: 12px;
+        opacity: 0.9;
+      }
+      .icon {
+        margin-right: 12px;
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .code {
+    margin-top: 32px;
+    padding: 12px 24px;
+    background-color: #e6f4ff;
+    .info {
+      margin-right: 24px;
+      .title {
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+    .img {
+      width: 100px;
+      padding: 4px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+  }
+
+  .info {
+    .title {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .desc {
+      color: #666;
+    }
+  }
+}

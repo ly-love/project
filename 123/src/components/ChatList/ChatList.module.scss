@@ -1,0 +1,45 @@
+.chatList {
+  flex: 1;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 0 36px;
+
+  .question,
+  .answer {
+    margin-bottom: 24px;
+    .avatar {
+      width: 32px;
+      height: 32px;
+      flex-shrink: 0;
+      margin-right: 12px;
+    }
+    .text {
+      font-size: 16px;
+      line-height: 1.8;
+      flex: 1;
+    }
+  }
+  .question {
+    padding: 0 24px 0 18px;
+    .text {
+      &:hover {
+        background-color: #f3f3f3;
+      }
+    }
+  }
+  .answer {
+    background-color: #fff;
+    padding: 18px 24px 18px 18px;
+    border-radius: 8px;
+
+  }
+  .loading {
+    margin-right: 12px;
+    .name {
+      color: #1677ff;
+    }
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

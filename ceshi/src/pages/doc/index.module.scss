@@ -1,0 +1,71 @@
+.docContainer {
+  height: 100%;
+  .back {
+    padding: 24px 36px;
+  }
+  .doc {
+    max-width: 900px;
+    min-width: 800px;
+    margin: 0 auto;
+    height: calc(100% - 80px);
+    overflow-y: auto;
+
+    .infoContainer {
+      flex: 1;
+      padding: 18px 36px;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+      .info {
+        padding: 20px 24px;
+        border-radius: 8px;
+        background-color: #fff;
+
+        .avatar {
+          margin-right: 12px;
+          width: 32px;
+          height: 32px;
+          flex-shrink: 0;
+        }
+        .text {
+          font-size: 16px;
+          line-height: 32px;
+        }
+        .list {
+          .item {
+            font-size: 16px;
+            line-height: 2;
+          }
+          .title {
+            font-size: 18px;
+            line-height: 32px;
+            margin-bottom: 8px;
+          }
+          pre {
+            margin: 0;
+            white-space: pre-wrap;
+            max-width: 100%;
+          }
+          .items {
+            text-indent: 4px;
+            .dot {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+    .extractChatArea {
+      position: relative;
+      margin: 24px 36px 18px 36px;
+      .textarea {
+        font-size: 16px;
+        padding-right: 80px;
+      }
+      .btn {
+        position: absolute;
+        right: 12px;
+        bottom: 12px;
+      }
+    }
+  }
+}

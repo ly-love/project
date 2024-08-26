@@ -1,0 +1,29 @@
+.chatMessage {
+  flex-shrink: 0;
+  padding: 18px 36px 12px 36px;
+  .chatBtns {
+    margin-bottom: 12px;
+
+    .clearBtn {
+      margin-right: 12px;
+      color: #1677ff;
+    }
+
+    .img {
+      margin-right: 4px;
+    }
+  }
+
+  .chatTextArea {
+    position: relative;
+    .textarea {
+      font-size: 16px;
+      padding-right: 80px;
+    }
+    .btn {
+      position: absolute;
+      right: 12px;
+      bottom: 12px;
+    }
+  }
+}

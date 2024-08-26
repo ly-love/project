@@ -1,0 +1,25 @@
+.pdfContainer {
+  height: 100%;
+  .radioContainer,
+  .pdfList {
+    // max-width: 580px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  .radioContainer {
+    padding: 12px 12px 0 12px;
+  }
+  .pdfContent {
+    height: calc(100% - 84px - 12px);
+    overflow-y: auto;
+    .pdfList {
+      height: 100%;
+      padding: 6px 32px 0 32px;
+    }
+  }
+}
+.similarContainer {
+  height: 70vh;
+  overflow-y: auto;
+  padding: 0px 24px;
+}

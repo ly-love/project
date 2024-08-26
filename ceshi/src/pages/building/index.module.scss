@@ -1,0 +1,24 @@
+.building {
+  height: 100%;
+  // background-color: #f6f7f9;
+  .info {
+    border-right: 1px solid #ececec;
+    flex: 3;
+    flex-shrink: 0;
+    .title {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+    .desc {
+      color: #666;
+      margin-bottom: 12px;
+    }
+    img {
+      width: 150px;
+    }
+  }
+  .recommendContainer {
+    flex: 2;
+    flex-shrink: 0;
+  }
+}

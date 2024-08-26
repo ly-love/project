@@ -1,0 +1,23 @@
+.updateContent {
+  padding: 0 24px;
+  .title {
+    font-size: 16px;
+  }
+  .points {
+    margin-left: 24px;
+    margin-bottom: 6px;
+  }
+}
+
+.qrCode {
+  margin-top: 32px;
+  padding: 0 24px;
+  .title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .img {
+    width: 166px;
+    height: 166px;
+  }
+}
